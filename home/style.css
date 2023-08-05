@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 120px 50px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #B8BCCC80;
+    gap: 20px;
+
+}
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-bottom div span span {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.location {
+    background-color: #575A85;
+    color: #B8BCCC;
+    padding: 80px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.location span {
+    background-color: inherit;
+    font-size: 40px;
+    font-weight: 700;
+    align-self: center;
+}
+
+.your-info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #B8BCCC;
+    padding: 50px;
+
+}
+
+.your-info>p {
+    font-size: 40px;
+    font-weight: 700;
+    align-self: center;
+}
+
+.your-info div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.your-info div>span {
+    color: #B8BCCC80;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.your-info div>span span {
+    color: white;
+}
+
+
+
+/* ----footer----- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+}
+
+footer>span {
+    background-color: inherit;
+    font-size: 40px;
+    font-weight: 700;
+    align-self: center;
+    color: #B8BCCC;
+}
+
+.search-container {
+    border: 3px solid #575A85;
+    padding: 15px 30px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.search-container img {
+    height: 100%;
+}
+
+.search-container input {
+    color: #B8BCCC;
+    font-size: 28px;
+    outline: none;
+    width: 95%;
+}
+
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.item {
+    background-color: #575A85;
+    color: #B8BCCC;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 550px;
+    height: 330px;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.item span {
+    background-color: inherit;
+    font-size: 30px;
+    font-weight: 700;
+}
